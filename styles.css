@@ -1,3 +1,14 @@
 body{
     max-height: 100vh;
 }
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    place-items: center;
+}
+
+.card5{
+    grid-row: 1 / 2;
+    grid-column: 4;
+}
